@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   title: "ROMECK - Applications qui créent des connexions authentiques",
   description: "ROMECK développe des applications mobiles qui favorisent les conversations authentiques et les connexions humaines.",
   keywords: "ROMECK, 100 Questions de la Vie, application mobile, conversations, connexions",
-  other: {
-    'google-site-verification': 'mdwCtKnY2TNuhqZttTC9NBu2avl7BYWGAZqaj1R-eqk'
-  }
 };
 
 export default function RootLayout({
@@ -18,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <meta name="google-site-verification" content="mdwCtKnY2TNuhqZttTC9NBu2avl7BYWGAZqaj1R-eqk" />
+      </head>
       <body>
         <div className="min-h-screen flex flex-col">
           <header className="border-b border-gray-200">
