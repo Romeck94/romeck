@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "ROMECK - Applications qui créent des connexions authentiques",
   description: "ROMECK développe des applications mobiles qui favorisent les conversations authentiques et les connexions humaines.",
   keywords: "ROMECK, 100 Questions de la Vie, application mobile, conversations, connexions",
+  other: {
+    'google-site-verification': 'mdwCtKnY2TNuhqZttTC9NBu2avl7BYWGAZqaj1R-eqk'
+  }
 };
 
 export default function RootLayout({
